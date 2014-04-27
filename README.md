@@ -17,7 +17,7 @@ README.md
 ========================================
 
 2. SCRIPT DESCRIPTION
-
+''
 # Load needed library and potentially set up working directory (uncomment if necessary)
 library(plyr)
 #setwd('UCI_HAR_Dataset/')
@@ -74,7 +74,7 @@ new_labelled$labels = new_labels
 write.table(final_labelled, file="final_output.txt", sep="\t", row.names=FALSE)
 write.table(new_labelled, file="step5_output.txt", sep="\t", row.names=FALSE)
 
-
+''
 
 ==================================================================
 
